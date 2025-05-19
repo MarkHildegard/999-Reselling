@@ -1,3 +1,4 @@
+/* General Body Styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -6,23 +7,83 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  text-align: center;
   flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
 }
 
+/* Shared Container */
 .container {
-  padding: 20px;
+  padding: 40px 20px;
 }
 
+/* Homepage Title */
 h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
 }
 
+/* Main Image on Home Page */
 .main-image {
   width: 300px;
   max-width: 80%;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.main-image:hover {
+  transform: scale(1.03);
+}
+
+/* Back Link */
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Category Card */
+.category-card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #1b1b1b;
+  border-radius: 20px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Steam Logo Inside Card */
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+/* Title in the Card */
+.category-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Bottom Price in the Card */
+.price {
+  position: absolute;
+  bottom: 15px;
+  font-size: 1em;
+  color: #aaa;
 }
