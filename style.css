@@ -66,12 +66,12 @@ h1 {
   transition: 0.2s ease;
 }
 
-/* Compact Category Card */
+/* Slightly larger category card */
 .category-card {
   position: relative;
   width: 90%;
-  max-width: 400px;
-  height: 100px;
+  max-width: 450px;
+  height: 130px;
   background-color: #1b1b1b;
   border-radius: 15px;
   margin: 30px auto;
@@ -113,4 +113,13 @@ h1 {
   transform: translateX(-50%);
   font-size: 0.85em;
   color: #aaa;
+}
+
+/* Steam image centered inside card (accounts.html) */
+.steam-center {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
