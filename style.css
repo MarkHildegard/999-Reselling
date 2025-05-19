@@ -14,20 +14,20 @@ body {
 
 /* Shared Container */
 .container {
-  padding: 40px 20px;
+  padding: 30px 20px;
   width: 100%;
   max-width: 1200px;
 }
 
 /* Homepage Title */
 h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   margin-bottom: 20px;
 }
 
 /* Main Image on Home Page */
 .main-image {
-  width: 300px;
+  width: 250px;
   max-width: 80%;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
@@ -41,27 +41,27 @@ h1 {
 /* Back Link */
 .back-link {
   display: inline-block;
-  margin-top: 40px;
+  margin-top: 30px;
   color: #ccc;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.95em;
 }
 
 .back-link:hover {
   text-decoration: underline;
 }
 
-/* Category Card - flatter and centered layout */
+/* Smaller, compact category card */
 .category-card {
   position: relative;
   width: 90%;
-  max-width: 600px;
-  height: 140px;
+  max-width: 400px;
+  height: 100px;
   background-color: #1b1b1b;
-  border-radius: 20px;
-  margin: 40px auto;
-  padding: 20px;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px auto;
+  padding: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
   color: white;
   display: flex;
   flex-direction: column;
@@ -72,30 +72,30 @@ h1 {
 /* Steam Logo - top left corner */
 .logo {
   position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 40px;
-  height: 40px;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
 }
 
 /* Horizontal Badge: Accounts */
 .category-title {
   background-color: #2e2e2e;
-  padding: 6px 18px;
-  border-radius: 25px;
-  font-size: 1em;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9em;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* Price in the bottom center */
 .price {
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: #aaa;
 }
