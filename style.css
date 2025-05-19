@@ -66,7 +66,7 @@ h1 {
   transition: 0.2s ease;
 }
 
-/* Slightly larger category card */
+/* Category Card (used for both pages) */
 .category-card {
   position: relative;
   width: 90%;
@@ -84,7 +84,7 @@ h1 {
   align-items: center;
 }
 
-/* Steam Logo - top left corner */
+/* Steam Logo in top-left corner (for categories.html) */
 .logo {
   position: absolute;
   top: 10px;
@@ -93,7 +93,7 @@ h1 {
   height: 30px;
 }
 
-/* Slightly larger horizontal badge: Accounts */
+/* Title badge (only for categories.html) */
 .category-title {
   background-color: #2e2e2e;
   padding: 8px 24px;
@@ -105,7 +105,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-/* Price centered at the bottom */
+/* Price at bottom center */
 .price {
   position: absolute;
   bottom: 10px;
@@ -115,7 +115,7 @@ h1 {
   color: #aaa;
 }
 
-/* Steam image centered in card */
+/* Steam logo centered (for accounts.html) */
 .steam-center {
   width: 60px;
   height: 60px;
