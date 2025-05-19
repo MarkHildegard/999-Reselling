@@ -99,3 +99,16 @@ h1 {
   font-size: 0.85em;
   color: #aaa;
 }
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.card-link:hover .category-card {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
