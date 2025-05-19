@@ -74,10 +74,16 @@ h1 {
   height: 40px;
 }
 
-/* Title in the Card */
+/* Sleek Badge for Category Name */
 .category-title {
-  font-size: 2em;
-  font-weight: bold;
+  background-color: #2e2e2e;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
 
 /* Bottom Price in the Card */
